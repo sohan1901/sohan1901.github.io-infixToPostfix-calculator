@@ -90,6 +90,5 @@ function infixToPostfix() {
     for (var i = 0; i < postfix.length; i++)
         st += postfix[i];
 
-    document.getElementById("pre_post").innerHTML = "Postfix expression of given infix expression is ";
     document.getElementById("output_post").innerHTML = st;
 }
